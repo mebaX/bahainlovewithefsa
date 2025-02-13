@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&display=swap');
+
+.lbl {
+    font-family: "Bebas Neue", serif;
+    font-style: normal;
+    font-size: 65px;
+}
+
+.timer{
+    height: 80px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.timer-item {
+    display:inline-block;
+    width: 13%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: yellow;
+    border-radius: 20%;
+}
