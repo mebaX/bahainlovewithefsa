@@ -27,7 +27,7 @@ class DialogPage extends Component {
 
 
     render() {
-        const { media = "/efsaandbaha/5 ekim starbucks.mp4", description = "" } = this.props;
+        const { media = "/efsaandbaha/5 ekim starbucks.mp4", description = "", _height="500px"} = this.props;
         if (media.includes(".mp4")) {
             var type = "video";
         } else {
@@ -55,7 +55,7 @@ class DialogPage extends Component {
                                 <CardMedia
                                     component={type}
                                     src={media}
-                                    height="500"
+                                    height={_height}
                                     style={{ width: '100%' }}
                                     controls
                                     autoPlay
